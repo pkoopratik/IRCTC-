@@ -24,7 +24,11 @@ If the following programs are missing kindly visit the links below, download and
 ## NODE.JS BACKEND SETUP
 
 You need to install following libraries using npm
+
+
 ![alt text](1.JPG)
+
+
 ### INSTALLATIONS
 
 
@@ -40,25 +44,36 @@ If you have the all installations ready, run the following commands in your edit
 
 Setup the database using PgAdmin
 Database details should look like
+
+
 ![alt text](2.JPG)
 
 see queries.sql file for refference
 
+!
+!
+
 
 After installing all dependancies, you can start sever by
 nodemon server.js
+!
 ![alt text](3.JPG)
 
+
+!
+!
 
 ### Running API
 
 
 ### Register
 you can register new user by providing username and password , It will show error if user is alredy registered
+!
 ![alt text](4.JPG)
 
 
-
+!
+!
 ### Login
 
 you can use this api to login user who is already registered by providing username and password , It will show error if user is  not registered. Also this function will create web token further we can use this for booking purpose. 
@@ -66,8 +81,8 @@ you can use this api to login user who is already registered by providing userna
 ![alt text](5.JPG)
 
 
-
-
+!
+!
 ### Add train details
 
 Only admin can use this api.
@@ -76,24 +91,33 @@ This Api is used to add new train , with source and destination and total seats
 ![alt text](6.JPG)
 
 
+!
+!
 ### Check Availability
 
 User can use this Api to find Availability of seats, they need to enter source and destination, to get desired result
 
 ![alt text](7.JPG)
 
+!
+!
 ### Booking a seat
 
 User can use this Api to  to book their seats, they need to enter source and destination, In return they will get a Booking Id , they can use it further as a PNR number
 
 ![alt text](8.JPG)
 
+!
+!
 ### Get booking details
 
 User can use this Api to find details of  their booked seat, they need to enter booking Id which they got from booking .In return they will get a username, Booking Id, Seat number, source and destination
 
 ![alt text](9.JPG)
 
+!
+!
+!
 ### Database Screenshots
 
 Booking table
