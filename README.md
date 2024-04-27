@@ -1,6 +1,9 @@
 # IRCTC-train
 sample API for IRCTC,
 
+Github link
+https://github.com/pkoopratik/IRCTC-
+
 # NODE.JS SERVER FOR USER REGISTRATION AND LOGIN WITH POSTGRES DATABASE
 
 This is a node.js backend server for registering users and 
